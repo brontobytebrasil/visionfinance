@@ -91,8 +91,12 @@ Recurring entries, instalment billing with a public payment link, receipts, decl
 and calendar scheduling — all reachable by voice or text. A public page per business
 (`/p/{slug}`) and file storage on private S3 with signed URLs.
 
-**Invoice issuing is integrated** — digital certificate and provider in place, with the first
-live invoice about to go out.
+**Invoice issuing works, and it works by voice.** Each company uploads its own A1 digital
+certificate and company data, and issues from then on: the NFS-e comes back authorized, with
+the XML. Multi-tenant, self-service, in pre-launch.
+
+That closes the loop the product promises — the audio becomes a record, the record becomes a
+charge, and the charge becomes an invoice, without the user leaving WhatsApp.
 
 ## Stack
 
@@ -168,7 +172,11 @@ Lançamento recorrente, cobrança parcelada com link público de pagamento, reci
 e agendamento — tudo por voz ou texto. Página pública por negócio (`/p/{slug}`) e
 armazenamento em S3 privado com URL assinada.
 
-**Emissão de nota fiscal integrada** — certificado digital e provedor resolvidos, com a
-primeira nota real prestes a sair.
+**A nota fiscal sai, e sai por voz.** Cada empresa sobe o próprio certificado digital A1 e os
+dados dela, e a partir daí emite: a NFS-e volta autorizada, com o XML. Multi-tenant,
+self-service, em pré-lançamento.
+
+Isso fecha o ciclo que o produto promete — o áudio vira lançamento, o lançamento vira
+cobrança, e a cobrança vira nota, sem a pessoa sair do WhatsApp.
 
 </details>
